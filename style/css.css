@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.bg{
+    background-image: url(bg.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-color: rgb(0,0,0);
+}
+
+/* Cabeçalho */
+
+        header{
+            width: 100vw;
+            height: 10vh;
+            position: fixed;
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 0px 0px 15px 15px;
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgb(52, 52, 52);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header div{
+            display: flex;
+            align-items: center;
+        }
+
+        #logo-nba{
+            width: 15vh;
+            margin-left: 3vw;
+        }
+
+        #menu-hamburger{
+            display: block;
+            width: 6vh;
+            border: 1px solid rgb(52, 52, 52);
+            border-radius: 50%;
+            padding: 7px;
+            margin-right: 3vw;
+        }
+
+        #menu-opcao{
+            background-color: #000;
+            z-index: 5;
+            width: 100%;
+            padding: 70vh 0vh 0vh 0vh;
+            position: fixed;
+        }
+
+main{
+    padding-top: 10vh;
+}
+
+#section-1{
+    display: flex;
+    justify-content: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+
+}
+
+#milwauke{
+    width: 200px;
+    position: absolute;
+    top: 10vh;
+}
+
+.listras{
+    height: 16px;
+}
+
+/*LISTRAS*/
+                #listras-1{
+                    padding-top: 144px;
+                }
+                #listra-1{
+                    background-color: #284290;
+                }
+                #listra-2{
+                    background-color: #000;
+                }
+                #listra-3{
+                    background-color: #2B4239;
+                }
+                #listra-4{
+                    background-color: #E7E7E7;
+                }
+                #listra-5{
+                    background-color: #EEE5C6;
+                }
+                #listra-6{
+                    background-color: #2B4239;
+                }
+
+#champ{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.section{
+    padding: 0vw 7vw 0vw 7vw;
+}
+
+#nba75{
+    width: 200px;
+    margin-top: 5vh;
+}
+
+section h1{
+    font-size: 16px;
+    display: inline;
+    background-image: linear-gradient(
+    180deg,hsla(0,0%,100%,.3),hsla(0,0%,100%,.3)),linear-gradient(7deg,rgba(255, 0, 113, 1),rgba(255, 248, 0, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section h2{
+    font-size: 26px;
+    color: #fff;
+    margin-top: 15px;
+    
+}
+
+section p{
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 500;
+}
