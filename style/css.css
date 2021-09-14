@@ -177,6 +177,7 @@ section h1{
     180deg,hsla(0,0%,100%,.3),hsla(0,0%,100%,.3)),linear-gradient(7deg,rgba(255, 0, 113, 1),rgba(255, 248, 0, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 section h2{
@@ -370,6 +371,11 @@ footer div{
         width: 15vw;
     }
 
+    #images-section1{
+        justify-content: flex-end;
+        column-gap: 40px;
+    }
+
     #section2{
         display: grid;
         grid-template-areas: 
@@ -383,6 +389,6 @@ footer div{
     }
 
     #summer-league{
-        width: 30vw;
+        width: 400px;
     }
 }
